@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "script": {
+    "start": "nodemon server.js"
   },
   "author": "Hao Le",
   "license": "ISC",
@@ -12,5 +12,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "node": "^17.5.0"
   }
 }
